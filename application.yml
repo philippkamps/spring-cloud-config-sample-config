@@ -1,0 +1,13 @@
+defaultMessage: Default message.
+
+---
+spring:
+    profiles: dev
+        
+defaultMessage: Default development message.
+
+---
+spring:
+    profiles: prod
+
+defaultMessage: Default production message.
